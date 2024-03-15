@@ -1,0 +1,387 @@
+body{
+    background-color:rgb(255, 255, 255) ;
+    color: rgb(0, 0, 0);
+    margin: 0%;
+    padding: 0%;
+}
+ul, a {
+list-style:none;
+margin: 0%;
+padding: 0%;
+text-decoration: none;
+}
+header{
+    background-color:rgb(0, 0, 0) ;
+    padding:20px 0;
+    box-shadow:0 2px 4px rgb(39, 39, 33);
+
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    margin: 0 20px ;
+}
+nav ul li a {
+    color: rgb(255, 255, 255);
+    font-size:20px ;
+    padding:6px 12px ;
+    border-radius:6px ;
+    transition: background-color 0.3s;
+}
+nav ul li a:hover,nav ul li a:focus {
+    background-color:rgb(255, 0, 0);
+}
+.item{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.test {
+    text-align: center;
+}
+.item p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;   
+}
+div {
+    margin: 100px;
+}
+.h1 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.tim {
+display: inline-block;
+flex-direction: row;
+text-align: center;
+justify-content: center;
+}
+.moies {
+    display: inline-block;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    margin-left: 100px;
+    position: sticky;
+}
+.moies{
+    position: relative;
+}
+.moies img{
+    max-width:250px;
+    height: auto;
+    margin: 50px;
+}
+.moie-text{
+    position: absolute;
+    top: 155px;
+    left: 35px;
+}
+.moies-text{
+    position: absolute;
+    top: 155px;
+    left: 300px;
+}
+.text{
+    position: absolute;
+    top: 155px;
+    left: 665px;
+    text-align: center;
+}
+.ox {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+gap: 1px;
+}
+.ages {
+width: 50px;
+height: 50px;
+background-color: rgb(0, 0, 0);
+color:rgb(255, 0, 0);
+display: flex;
+justify-content: center;
+align-content: center;
+margin: 1px;
+padding: 0px;
+font-size: 30px;
+text-decoration: rgb(255, 255, 255);
+position: relative;
+left: 780px;
+}
+.ages a:hover{
+background-color: rgb(0, 0, 0);
+}
+.gallary {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+.lm {
+    border: 1px solid rgb(37, 29, 29);
+    padding: 10px;
+    text-align: center;
+}
+.lm img {
+    width: 100%;
+    height: auto;
+}
+.lm h3 {
+    margin:10px 0;
+}
+.lm p {
+    color: black;
+}
+.lm{
+    position: relative;
+    width: 50%;
+}
+.photo {
+    width: 100%;
+}
+
+.l {
+    display: inline-block;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+.lol {
+    display: inline-block;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-left: 80%;
+    }
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: rgb(32, 36, 36); 
+}
+.o {
+    font-size: 16px;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0px;
+    padding: 16px; 
+}
+footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: rgb(63, 54, 54);
+}
+.s{
+    font-size: 16px;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0px;
+    padding: 16px;
+}
+.delay {
+    position: absolute;
+    left: 145px;
+    right: 10px;
+    top: 1290px;
+    bottom:1290px;
+}
+.dela {
+    position: absolute;
+    left: 570px;
+    right: 10px;
+    top: 1290px;
+    bottom:1290px;
+}
+.delayed {
+    position: absolute;
+    left: 1010px;
+    right: 10px;
+    top: 1290px;
+    bottom:1290px;
+}
+.player { position: absolute;
+    left: 260px;
+    right: 0px;
+    top: 330px;
+    bottom:0px;}
+.playe { position: absolute;
+     left: 900px;
+     right: 0px;
+     top:330px;
+     bottom:0px;}
+.play { position: absolute;
+     left:px;
+     right: 250px;
+     top: 330px;
+     bottom:0px;}
+.pla { position: absolute;
+     left: px;
+     right: 1550px;
+     top:1100px;
+     bottom:0px;}
+.pl { position: absolute;
+     left: px;
+     right: 900px;
+     top:1100px;
+     bottom:0px;} 
+.p { position: absolute;
+     left: px;
+     right: 250px;
+     top:1100px;
+     bottom:0px;}
+@keyframes fadeInOut{ 
+    0%{
+      opacity: 0;  
+
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+.lm :hover{
+animation: fadeInOut 3s ease-in-out infinite;
+}
+@keyframes fadeInOut{ 
+    0%{
+      opacity: 0;  
+
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+.delay :hover{
+animation: fadeInOut 3s ease-in-out infinite;
+}
+@keyframes fadeInOut{ 
+    0%{
+      opacity: 0;  
+
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+.dela :hover{
+animation: fadeInOut 3s ease-in-out infinite;
+}
+@keyframes fadeInOut{ 
+    0%{
+      opacity: 0;  
+
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+.delayed :hover{
+animation: fadeInOut 3s ease-in-out infinite;
+}
+@keyframes fadeInOut{ 
+    0%{
+      opacity: 0;  
+
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+.player :hover{
+animation: fadeInOut 3s ease-in-out infinite;
+}
+@keyframes fadeInOut{ 
+    0%{
+      opacity: 0;  
+
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+.playe :hover{
+animation: fadeInOut 3s ease-in-out infinite;
+}
+@keyframes fadeInOut{ 
+    0%{
+      opacity: 0;  
+
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+.play :hover{
+animation: fadeInOut 3s ease-in-out infinite;
+}
+@keyframes fadeInOut{ 
+    0%{
+      opacity: 0;  
+
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+.pla :hover{
+animation: fadeInOut 3s ease-in-out infinite;
+}
+@keyframes fadeInOut{ 
+    0%{
+      opacity: 0;  
+
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+.pl :hover{
+animation: fadeInOut 3s ease-in-out infinite;
+}
+@keyframes fadeInOut{ 
+    0%{
+      opacity: 0;  
+
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+.p :hover{
+animation: fadeInOut 3s ease-in-out infinite;
+}
